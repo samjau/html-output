@@ -1,0 +1,46 @@
+
+<html>
+
+	<head> 
+		<title>Circles</title>
+		<style>
+			body { margin: 0pc; padding:0; }
+			/* Overflow, rgba, float/position, classes, recursive */
+
+			body>div {
+				overflow: hidden; margin-bottom: ; padding: 0;
+				float: left; 
+				/*defaults for containers */
+			}
+
+			body>div div:nth-child(3n) { 
+				margin-left: -9pt;
+ 			}
+			.container { width: 68pc; height: 126pc; border: 0;  overflow: hidden;  } /* 13.5 inches */
+
+			body div  { 
+				font-size: 63pt;
+				font-weight:bold;
+				margin-top: -50pt;
+				float: left; 
+				color: red;
+			}
+			
+		</style>
+	</head>
+	
+	<body> 
+		<div class="container">
+			<script>
+				i=0;
+				do {
+				  document.write("<div>O</div>");
+				  i++;
+				  }
+				while (i<850) 
+  			</script>
+		</div>
+	</body>
+
+		<!-- a comment in html -->
+</html>
